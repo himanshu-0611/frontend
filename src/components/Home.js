@@ -1,7 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { Element } from "react-scroll";
-import Cookies from "js-cookie";
 import "./home.css"; // Import the external CSS file
 import Features from "./Features";
 import Testimonials from "./Testimonials";
@@ -10,7 +8,6 @@ import ProgramCards from "./ProgramCards";
 import { useState, useEffect } from "react";
 
 function Home() {
-  const navigate = useNavigate();
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
 
    const handleHover = () => {
@@ -35,18 +32,18 @@ function Home() {
     };
   }, []);
 
-  const handleLogout = () => {
-    // Remove the isLoggedIn and userName cookies to log the user out
-    Cookies.remove("isLoggedIn");
-    Cookies.remove("userName");
+  // const handleLogout = () => {
+  //   // Remove the isLoggedIn and userName cookies to log the user out
+  //   Cookies.remove("isLoggedIn");
+  //   Cookies.remove("userName");
 
-    // Redirect to the login page
-    navigate("/login");
-  };
+  //   // Redirect to the login page
+  //   navigate("/login");
+  // };
 
   // Check if the user is logged in and retrieve their name from the cookie
-  const isLoggedIn = Cookies.get("isLoggedIn");
-  const userName = Cookies.get("userName");
+  // const isLoggedIn = Cookies.get("isLoggedIn");
+  // const userName = Cookies.get("userName");
 
   const [zoom, setZoom] = useState(1);
 

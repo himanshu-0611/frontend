@@ -1,17 +1,14 @@
 import React from "react";
-import { useState } from "react";
 import {
   MDBCard,
   MDBCardBody,
   MDBCardImage,
   MDBContainer,
-  MDBIcon,
 } from "mdb-react-ui-kit";
 import Carousel from "react-bootstrap/Carousel";
 // import ExampleCarouselImage from '../public/images/bg6.png';
 import "./features.css";
 import Marquee from "react-fast-marquee";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const cardsData = [

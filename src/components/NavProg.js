@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
-import Leaderboard from "./Leaderboard";
 import "./navprog.css";
 
 export default function NavProg() {
@@ -153,16 +152,16 @@ export default function NavProg() {
     }
   };
 
-  useEffect(() => {
-    return () => {
-      fetchUserTasks();
-      const currentDate = new Date()
-        .toISOString()
-        .slice(0, 19)
-        .replace("T", " ");
-      // calculateStreak(userTasks, currentDate);
-    };
-  }, []);
+  // useEffect(() => {
+  //   return () => {
+  //     fetchUserTasks();
+  //     const currentDate = new Date()
+  //       .toISOString()
+  //       .slice(0, 19)
+  //       .replace("T", " ");
+  //     // calculateStreak(userTasks, currentDate);
+  //   };
+  // }, []);
 
   return (
     <div className="task-container">

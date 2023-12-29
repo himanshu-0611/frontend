@@ -13,7 +13,7 @@ function Profile() {
   const [selectedProgram, setSelectedProgram] = useState("");
   const [error, setError] = useState(null);
   const [programData, setProgramData] = useState(null);
-  const [userTaskIds, setUserTaskIds] = useState([]);
+  const [, setUserTaskIds] = useState([]);
   const [submittedTasks, setSubmittedTasks] = useState([]);
   const [selectedProgramTaskId, setSelectedProgramTaskId] = useState(
     localStorage.getItem("selectedProgramTaskId") || null
@@ -48,7 +48,7 @@ function Profile() {
   };
   useEffect(() => {
     if (isFirstRender.current) {
-      const username = Cookies.get("userName");
+      // const username = Cookies.get("userName");
       setShowWelcomeMessage(true);
 
       // Hide the welcome message after 5 seconds
@@ -118,7 +118,7 @@ function Profile() {
     if (selectedProgram) {
       fetchUserProgress();
     }
-  }, [selectedProgram]);
+  },);
 
   useEffect(() => {
     const storedProgram = localStorage.getItem("selectedProgram");
@@ -331,7 +331,6 @@ function Profile() {
             style={{
               padding: "15px",
               border: "4px solid black",
-              textAlign: "left",
               fontWeight: "bold",
               fontSize: "normal",
               textAlign: "center"
@@ -348,7 +347,6 @@ function Profile() {
               style={{
                 padding: "15px",
                 border: "4px solid black",
-                textAlign: "left",
                 fontWeight: "normal",
                 fontSize: "normal",
                 textAlign: "center"
@@ -371,7 +369,6 @@ function Profile() {
               style={{
                 padding: "15px",
                 border: "4px solid black",
-                textAlign: "left",
                 fontWeight: "normal",
                 fontSize: "normal",
                 textAlign: "center"

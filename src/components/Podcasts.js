@@ -29,7 +29,7 @@ function Podcasts() {
     // Add more video entries as needed
   ];
 
-  const [videos, setVideos] = useState(videoData);
+  const [videos] = useState(videoData);
 
   return (
     <>
