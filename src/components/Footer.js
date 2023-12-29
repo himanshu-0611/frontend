@@ -12,7 +12,7 @@ const Footer = () => {
         <h2 className="con-heading">Contact Us</h2>
         <p className="con-text">
           For any inquiries, please contact us at{" "}
-          <a href="mailto:info@example.com" className="con-link">
+          <a href="devcrusade@gmail.com" className="con-link">
             devcrusade@gmail.com
           </a>
           .
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <div className="copyright">
           Copyright &copy; 2023 All Rights Reserved{" "}
-          <a href="" style={{ color: "purple", fontWeight: "bolder"}}>
+          <a href="www.devcrusade.in" style={{ color: "purple", fontWeight: "bolder" }}>
             DevCrusade
           </a>
         </div>
