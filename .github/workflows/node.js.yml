@@ -43,5 +43,5 @@ jobs:
 
     - name: Move build contents to build folder
       run: |
-        mkdir build
+        mkdir build1
         mv * build/
