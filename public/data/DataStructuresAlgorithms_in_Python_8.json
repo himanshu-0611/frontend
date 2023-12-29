@@ -1,0 +1,25 @@
+{
+  "DSA": [
+    {"taskid": 1, "title": "Installing VS Code for Python", "link": "https://www.youtube.com/watch?v=cUAK4x_7thA"},
+    {"taskid": 2, "title": "Programming Basics", "link": "https://www.youtube.com/watch?v=rfscVS0vtbw (freeCodeCamp, 4h30m)"},
+    {"taskid": 3, "title": "30 questions", "link": "https://youtube.com/playlist?list=PLjVLYmrlmjGf3jtxG8lSo-zaPktQ7YbUw"},
+    {"taskid": 4, "title": "For Loops Pattern Printing", "link": "https://youtube.com/playlist?list=PLzgPDYo_3xuliFyI5dZKgYB99SMUscGyp"},
+    {"taskid": 5, "title": "Easy Section", "link": "https://www.faceprep.in/c/c-programming-questions/"},
+    {"taskid": 6, "title": "Reach 3 Star in HackerRank Python", "link": null},
+    {"taskid": 7, "title": "DSA Phase 1 Arrays", "link": "https://www.youtube.com/watch?v=gG3Ju6spdJ4 (KnowledgeGate, 3h30m)"},
+    {"taskid": 8, "title": "DSA Phase 1 Strings", "link": "https://www.youtube.com/watch?v=W2qXlMSPjks&list=PLiWyAyg2t9hR0lVtfH1rtPGA3uRPHfXZ8 (Computer Revival, Playlist)"},
+    {"taskid": 9, "title": "DSA Phase 1 Advanced Python", "link": "https://youtube.com/playlist?list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2 (Patrick Loeber, Playlist)"},
+    {"taskid": 10, "title": "Reach 5 Star in HackerRank Python", "link": null},
+    {"taskid": 11, "title": "Reach 5 Star in HackerRank Python Problem Solving", "link": null},
+    {"taskid": 12, "title": "Start attempting all CodeChef contests from now", "link": null},
+    {"taskid": 13, "title": "Searching and Sorting + Implementation", "link": "https://www.youtube.com/watch?v=8TVaEGeaGGc&t=1109s (1h Video + 5h Practice)"},
+    {"taskid": 14, "title": "DSA", "link": "https://youtube.com/playlist?list=PLzgPDYo_3xukPJdH6hVQ6Iic7KiJuoA-l (Amulya’s Academy, 77 Videos) (Start attempting LeetCode Contests after 20 videos of DSA Playlist, CodeChef Contests are being attempted consistently)"}
+  ],
+  "DSA Phase 2": [
+    {"taskid": 15, "title": "Future Ready Talent Project Start", "link": "https://futurereadytalent.in"},
+    {"taskid": 16, "title": "Note: Start Attempting All CodeChef Contests from Now", "link": null},
+    {"taskid": 17, "title": "DSA Phase 2: Searching and Sorting + Implementation", "link": "https://www.youtube.com/watch?v=8TVaEGeaGGc&t=1109s (1h + 5h)"},
+    {"taskid": 18, "title": "Complete DSA", "link": "https://www.youtube.com/watch?v=h3uDCJ5mvgw&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&pp=iAQB (Striver, 245 Videos) (Work on this daily from now, along with next tasks of Aptitude, Core Subjects)"},
+    {"taskid": 19, "title": "Start attempting LeetCode Contests after 20 videos of DSA Playlist, CodeChef Contests are being attempted consistently", "link": null}
+  ]
+}

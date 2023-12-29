@@ -1,0 +1,8 @@
+{
+  "short_name": "DevCrusade",
+  "name": "A community promoting self-study which gives software engineers a roadmap to achieve expertise in their interested domain through collaborative learning.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

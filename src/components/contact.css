@@ -1,0 +1,78 @@
+/* Add this CSS to your contact.css file or style tag */
+
+.con-container {
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Gradient of cyan and purple with low opacity */
+    border-radius: 10px;
+    /* Optional: Add rounded corners */
+}
+
+.con-heading {
+    font-size: 1.5em;
+}
+
+.con-text {
+    font-size: 1em;
+}
+
+.con-link {
+    color: #fff;
+    /* Text color for the link */
+}
+
+.con-button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: white;
+    font-weight: 600;
+    /* Text color */
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    /* Added color transition */
+}
+
+.con-button:hover {
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.7), rgba(128, 0, 128, 0.7));
+    /* Adjust the background color on hover */
+    color: white;
+    /* Black text on hover */
+}
+
+/* Media query for desktop */
+@media (min-width: 769px) {
+    .con-container {
+        padding: 10px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* Center content horizontally */
+    }
+
+    .con-heading {
+        font-size: 1.7em;
+    }
+
+    .con-text {
+        font-size: 0.9em;
+    }
+
+    .con-button {
+        margin-top: 10px;
+        padding: 12px;
+        /* Adjust the padding to decrease the button width */
+        font-size: 0.9em;
+        border-radius: 15px;
+        /* Adjust the border radius for desktop */
+    }
+}

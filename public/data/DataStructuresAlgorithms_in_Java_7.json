@@ -1,0 +1,21 @@
+{
+  "DSA": [
+    {"taskid": 1, "title": "Installing VS Code for Java", "link": "https://www.youtube.com/watch?v=fbyobdxDQno"},
+    {"taskid": 2, "title": "Programming Basics", "link": "https://www.youtube.com/watch?v=A74TOX803D0 (freeCodeCamp, 4h10m)"},
+    {"taskid": 3, "title": "30 questions", "link": "https://youtube.com/playlist?list=PLUDwpEzHYYLtgkXK6YaZ4I2XcsjMqIaEa"},
+    {"taskid": 4, "title": "For Loops Pattern Printing", "link": "https://www.youtube.com/watch?v=lsOOs5J8ycw (Kunal Kushwaha, 1h)"},
+    {"taskid": 5, "title": "Easy Section", "link": "https://www.faceprep.in/c/c-programming-questions/"},
+    {"taskid": 6, "title": "Reach 3 Star in HackerRank Java", "link": null},
+    {"taskid": 7, "title": "DSA Phase 1 Arrays", "link": "https://www.youtube.com/watch?v=sNrLlmOIn-c (CodeHelp, 1h30m)"},
+    {"taskid": 8, "title": "DSA Phase 1 Strings", "link": "https://www.youtube.com/watch?v=kjU04wGSYzw (CollegeWallah, 3h)"},
+    {"taskid": 9, "title": "DSA Phase 1 Collection Framework", "link": "https://www.youtube.com/watch?v=rzA7UJ-hQn4 (Anuj Bhaiya, 1h15m)"}
+  ],
+  "DSA Phase 2": [
+    {"taskid": 10, "title": "Reach 5 Star in HackerRank Java", "link": null},
+    {"taskid": 11, "title": "Reach 5 Star in HackerRank Java Problem Solving", "link": null},
+    {"taskid": 12, "title": "Start attempting all CodeChef contests from now", "link": null},
+    {"taskid": 13, "title": "Searching and Sorting + Implementation", "link": "https://www.youtube.com/watch?v=8TVaEGeaGGc&t=1109s (1h Video + 5h Practice)"},
+    {"taskid": 14, "title": "Complete DSA", "link": "https://www.youtube.com/watch?v=h3uDCJ5mvgw&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&pp=iAQB (Striver, 245 Videos) (Work on this daily from now, along with next tasks of Aptitude, Core Subjects)"},
+    {"taskid": 15, "title": "Start attempting LeetCode Contests after 20 videos of DSA Playlist, CodeChef Contests are being attempted consistently", "link": null}
+  ]
+}

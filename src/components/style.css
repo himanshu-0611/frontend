@@ -1,0 +1,32 @@
+.custom-nav {
+    position: -webkit-sticky !important;
+    /* For Safari/WebKit */
+    position: sticky !important;
+    top: 0 !important;
+    /* Stick to the top of the viewport */
+    /* Customize the background color */
+    /* Add padding for spacing if needed */
+    z-index: 100 !important;
+    /* Adjust z-index to control stacking order (if needed) */
+}
+
+.navbar-main {
+    height: 10vh;
+}
+
+.NavLink:hover {
+    color: black !important;
+}
+
+.low-for-mob {
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar-main {
+        height: auto;
+    }
+    .low-for-mob {
+        margin-top: auto;
+    }
+}

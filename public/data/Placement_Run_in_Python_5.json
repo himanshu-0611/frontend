@@ -1,0 +1,69 @@
+{
+  "DSA": [
+    {"taskid": 1, "title": "Installing VS Code for Python", "link": "https://www.youtube.com/watch?v=cUAK4x_7thA"},
+    {"taskid": 2, "title": "Programming Basics", "link": "https://www.youtube.com/watch?v=rfscVS0vtbw (freeCodeCamp, 4h30m)"},
+    {"taskid": 3, "title": "30 questions", "link": "https://youtube.com/playlist?list=PLjVLYmrlmjGf3jtxG8lSo-zaPktQ7YbUw"},
+    {"taskid": 4, "title": "For Loops Pattern Printing", "link": "https://youtube.com/playlist?list=PLzgPDYo_3xuliFyI5dZKgYB99SMUscGyp"},
+    {"taskid": 5, "title": "Easy Section", "link": "https://www.faceprep.in/c/c-programming-questions/"},
+    {"taskid": 6, "title": "Reach 3 Star in HackerRank Python", "link": null},
+    {"taskid": 7, "title": "DSA Phase 1 Arrays", "link": "https://www.youtube.com/watch?v=gG3Ju6spdJ4 (KnowledgeGate, 3h30m)"},
+    {"taskid": 8, "title": "DSA Phase 1 Strings", "link": "https://www.youtube.com/watch?v=W2qXlMSPjks&list=PLiWyAyg2t9hR0lVtfH1rtPGA3uRPHfXZ8 (Computer Revival, Playlist)"},
+    {"taskid": 9, "title": "DSA Phase 1 Advanced Python", "link": "https://youtube.com/playlist?list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2 (Patrick Loeber, Playlist)"},
+    {"taskid": 10, "title": "Reach 5 Star in HackerRank Python", "link": null},
+    {"taskid": 11, "title": "Reach 5 Star in HackerRank Python Problem Solving", "link": null},
+    {"taskid": 12, "title": "Start attempting all CodeChef contests from now", "link": null},
+    {"taskid": 13, "title": "Searching and Sorting + Implementation", "link": "https://www.youtube.com/watch?v=8TVaEGeaGGc&t=1109s (1h Video + 5h Practice)"},
+    {"taskid": 14, "title": "DSA", "link": "https://youtube.com/playlist?list=PLzgPDYo_3xukPJdH6hVQ6Iic7KiJuoA-l (Amulya’s Academy, 77 Videos) (Start attempting LeetCode Contests after 20 videos of DSA Playlist, CodeChef Contests are being attempted consistently)"}
+  ],
+  "DSA || Internship": [
+    {"taskid": 15, "title": "Future Ready Talent Project Start", "link": "https://futurereadytalent.in"},
+    {"taskid": 16, "title": "Note: Start Attempting All CodeChef Contests from Now", "link": null},
+    {"taskid": 17, "title": "DSA Phase 2: Searching and Sorting + Implementation", "link": "https://www.youtube.com/watch?v=8TVaEGeaGGc&t=1109s (1h + 5h)"},
+    {"taskid": 18, "title": "Complete DSA", "link": "https://www.youtube.com/watch?v=h3uDCJ5mvgw&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&pp=iAQB (Striver, 245 Videos) (Work on this daily from now, along with next tasks of Aptitude, Core Subjects)"},
+    {"taskid": 19, "title": "Start attempting LeetCode Contests after 20 videos of DSA Playlist, CodeChef Contests are being attempted consistently", "link": null}
+  ],
+  "DSA || Aptitude": [
+    {"taskid": 20, "title": "Ratio and Proportion", "link": "https://youtube.com/playlist?list=PLOoogDtEDyvsF0UHkJSfc5MGqCrs-28K_&si=Z5FuHDeYvkI7UNEC"},
+    {"taskid": 21, "title": "Allegation and Mixture", "link": "https://youtu.be/OKSJDDAyqP0?si=N3ORWVbTUnwdT9qA"},
+    {"taskid": 22, "title": "Profit and Loss", "link": "https://youtu.be/T2odvmxqi1I?si=UWYfjzDsFdf7O5nP"},
+    {"taskid": 23, "title": "Profit and Loss II", "link": "https://youtu.be/5VsvQRwMUG4?si=LnuqtPm3kmp3ZOFo"},
+    {"taskid": 24, "title": "Partnership", "link": "https://youtu.be/hn9TKnr8L_8?si=5sviul1wbbiLdUO4"},
+    {"taskid": 25, "title": "Time and Work", "link": "https://youtu.be/KE7tQf9spPg?si=c1Q9in1Vf611j5cu"},
+    {"taskid": 26, "title": "Pipes and Cistern", "link": "https://youtu.be/mBtBD1N7ywQ?si=Qgg9WNMMLlGso_4R"},
+    {"taskid": 27, "title": "Time Speed and Distance", "link": "https://youtu.be/jzNxXm5twx4?si=mSY9k5MAfL6PO30i"},
+    {"taskid": 28, "title": "Time Speed and Distance II", "link": "https://youtu.be/9u6tADKUv38?si=0zLYONvZJcPO6YR6"},
+    {"taskid": 29, "title": "HCF and LCM", "link": "https://youtu.be/xyyejJYeILM?si=63hLP9qnCtdVE-eV"}
+  ],
+  "DSA || Aptitude || Final Project": [
+    {"taskid": 30, "title": "Area and Perimeter", "link": "https://youtu.be/xwqUyOT-cmU?si=lejo43yyftCR6xx6"},
+    {"taskid": 31, "title": "Final Project Start", "link": null},
+    {"taskid": 32, "title": "Volume and Surface Area", "link": "https://youtu.be/2rp_-h6PnFo?si=vdnrP62dWSkFdyoh"},
+    {"taskid": 33, "title": "Arithmetic Progression", "link": "https://youtu.be/G-gccK5_KSQ?si=jc92li3amR2K-JGE"},
+    {"taskid": 34, "title": "Geometric Progression", "link": "https://youtu.be/rdC4Blp8qmk?si=CLGox-e998mC0bBF"}
+  ],
+  "DSA || Aptitude || Core Subjects": [
+    {"taskid": 35, "title": "Probability", "link": "https://youtu.be/ximxxERGSUc?si=r5IxGJOKxeiEDQ6Q"},
+    {"taskid": 36, "title": "Probability II", "link": "https://youtu.be/GfSCnbsZHm4?si=5vgSVcuBiy-xJzlI"},
+    {"taskid": 37, "title": "Calendars", "link": ["https://youtu.be/mLD41elDRTE?si=MIs_z9HRLq9Dd8mh", "https://youtu.be/fa0x2KkKPgk?si=v99_40W8JgJijfve", "https://youtu.be/oxc4G14nyUY?si="]},
+    {"taskid": 38, "title": "Clocks", "link": "https://youtu.be/edEvlh0tqzk?si=Vbvn4Szm6jihk5cm"},
+    {"taskid": 39, "title": "Boat and Stream", "link": "https://youtu.be/-EdJ4kAW-j4?si=MCpg3bt7my56uC_i"},
+    {"taskid": 40, "title": "Seating Arrangement", "link": "https://youtu.be/GYe98jwCn7g?si=s17ePTrfa2LWUWBS"},
+    {"taskid": 41, "title": "Series", "link": "https://youtu.be/gXBuL_FyahE?si=IwOsEwIPDAPTHfuF"},
+    {"taskid": 42, "title": "Coding Decoding", "link": "https://youtu.be/wwN3mJ-b4FY?si=ko4W-FszSqcktFnF"},
+    {"taskid": 43, "title": "Database Management Systems", "link": "https://youtube.com/playlist?list=PLDzeHZWIZsTpukecmA2p5rhHM14bl2dHU&si=wFAwhrTQgBp_fgs2"},
+    {"taskid": 44, "title": "Operating Systems", "link": "https://youtube.com/playlist?list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG&si=LwtGPi0Xwxsmt2l3"}
+  ],
+  "DSA || Core Subjects || Interview Preparation": [
+    {"taskid": 45, "title": "Computer Networks", "link": "https://youtu.be/IPvYjXCsTg8?si=17LaGOzOxEqQxNY5"},
+    {"taskid": 46, "title": "Object Oriented Programming", "link": "https://youtu.be/i_5pvt7ag7E?si=3DPaQuS7nZILM31b"},
+    {"taskid": 47, "title": "Object Oriented Programming II", "link": "https://youtu.be/b3GccK5_KSQ?si=qXzPfBbDnxoNRwSZ"},
+    {"taskid": 48, "title": "SQL I (Complete 1st Half of Playlist)", "link": "https://youtube.com/playlist?list=PLsjUcU8CQXGFFAhJI6qTA8owv3z9jBbpd&si=vfJXIJLVJKTNAEmB"},
+    {"taskid": 49, "title": "SQL II (Complete 2nd Half of Playlist)", "link": "https://youtube.com/playlist?list=PLsjUcU8CQXGFFAhJI6qTA8owv3z9jBbpd&si=vfJXIJLVJKTNAEmB"},
+    {"taskid": 50, "title": "Complete SQL Series from Leetcode", "link": "https://leetcode.com/studyplan/top-sql-50/"},
+    {"taskid": 51, "title": "Interview Prep", "link": "https://youtube.com/playlist?list=PLJvrw2GDzjfOMbC0BGcF_w5ECRdoBFcpF&si=mZrKAZz1iYLmBWWU"},
+    {"taskid": 52, "title": "How to give Introduction in Interview", "link": "https://youtu.be/EzGH3hZuJVk?si=dMfhvxm6gztc-8cW"},
+    {"taskid": 53, "title": "How to Apply Off Campus", "link": "https://youtu.be/iBOzTJaIoNM?si=m9QqCADTNGwbXEBd"},
+    {"taskid": 54, "title": "GD Tips", "link": "https://youtu.be/3w32jIsRlsw?si=ZkpkfuMvCWkY8j6h"},
+    {"taskid": 55, "title": "Surprise Task", "link": null}
+  ]
+}

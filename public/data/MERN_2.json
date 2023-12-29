@@ -1,0 +1,114 @@
+[
+  {
+    "title": "MERN",
+    "link": "MERN",
+    "duration": "Duration: N/A",
+    "YouTubeChannel": "N/A",
+    "taskid": 1
+  },
+  {
+    "title": "MERN",
+    "link": "N/A",
+    "duration": "Time To Complete: 30 Days",
+    "YouTubeChannel": "N/A",
+    "taskid": 2,
+    "subtasks": [
+      {
+        "title": "College Wallah (4h30m)",
+        "link": "https://www.youtube.com/watch?v=oi1ffu6lBXE",
+        "duration": "4h30m",
+        "YouTubeChannel": "College Wallah"
+      },
+      {
+        "title": "30 questions",
+        "link": "https://youtube.com/playlist?list=PLfsNnaur6SytfBSeLwuFK2Bg-kUvJNNtp",
+        "duration": "N/A",
+        "YouTubeChannel": "N/A"
+      },
+      {
+        "title": "For Loops Pattern Printing",
+        "link": "https://www.geeksforgeeks.org/pattern-programs-in-c/",
+        "duration": "N/A",
+        "YouTubeChannel": "N/A"
+      },
+      {
+        "title": "Easy Section",
+        "link": "https://www.faceprep.in/c/c-programming-questions/",
+        "duration": "N/A",
+        "YouTubeChannel": "N/A"
+      },
+      {
+        "title": "Reach 3 Star in HackerRank CPP",
+        "link": "N/A",
+        "duration": "N/A",
+        "YouTubeChannel": "N/A"
+      }
+    ]
+  },
+  {
+    "title": "DSA Phase 1 (Time to Complete 30 Days)",
+    "link": "N/A",
+    "duration": "Time to Complete 30 Days",
+    "YouTubeChannel": "N/A",
+    "taskid": 3,
+    "subtasks": [
+      {
+        "title": "Arrays (CodeHelp, 1h30m)",
+        "link": "https://www.youtube.com/watch?v=sNrLlmOIn-c",
+        "duration": "1h30m",
+        "YouTubeChannel": "CodeHelp"
+      },
+      {
+        "title": "Strings (CollegeWallah, 3h)",
+        "link": "https://www.youtube.com/watch?v=kjU04wGSYzw",
+        "duration": "3h",
+        "YouTubeChannel": "CollegeWallah"
+      },
+      {
+        "title": "STL CPP (CodeHelp, 1h)",
+        "link": "https://www.youtube.com/watch?v=WgMPrLX-zsA",
+        "duration": "1h",
+        "YouTubeChannel": "CodeHelp"
+      },
+      {
+        "title": "Reach 5 Star in HackerRank CPP",
+        "link": "N/A",
+        "duration": "N/A",
+        "YouTubeChannel": "N/A"
+      },
+      {
+        "title": "Reach 5 Star in HackerRank Problem Solving",
+        "link": "N/A",
+        "duration": "N/A",
+        "YouTubeChannel": "N/A"
+      },
+      {
+        "title": "Start Attempting All CodeChef Contests from Now",
+        "link": "N/A",
+        "duration": "N/A",
+        "YouTubeChannel": "N/A"
+      }
+    ]
+  },
+  {
+    "title": "DSA Phase 2 (Time to Complete 3 Months)",
+    "link": "N/A",
+    "duration": "Time to Complete 3 Months",
+    "YouTubeChannel": "N/A",
+    "taskid": 4,
+    "subtasks": [
+      {
+        "title": "Searching and Sorting + Implementation",
+        "link": "https://www.youtube.com/watch?v=8TVaEGeaGGc&t=1109s",
+        "duration": "1h + 5h",
+        "YouTubeChannel": "N/A"
+      },
+      {
+        "title": "DSA (CodeHelp, 140 Videos)",
+        "link": "https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA",
+        "duration": "N/A",
+        "YouTubeChannel": "CodeHelp"
+      }
+    ]
+  }
+]

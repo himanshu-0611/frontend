@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .program-det {
+        padding: 0px !important;
+    }
+    .program-det table {
+        width: 100%;
+    }
+    .tab-head {
+        padding-top: 30px;
+    }
+    .card-hai-ye {
+        margin: 0 10px 20px 10px !important;
+    }
+}

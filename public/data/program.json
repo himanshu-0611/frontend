@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Placement Preperation (Aptitude+DSA+Frontend+CS Fundamentals)",
+    "content": "Prepare yourself for placement success with our captivating 6-month Placement Mastery Program! Dive into the heart of programming excellence, mastering fundamentals and conquering CodeChef and LeetCode challenges. Elevate your cognitive prowess with intensive aptitude training in quants, logical reasoning, and verbal skills. Unlock the secrets of Computer Science fundamentals, including the dynamic realms of DBMS, OS, CN, and OOPS. Get ready to shine in placements and unleash your full potential in just six action-packed months!",
+    "image": "/images/home/PR1.png",
+    "buttonText": "Go somewhere",
+    "link": "https://example.com/placement"
+  },
+  {
+    "title": "Programming Basics and DSA",
+    "content": "Embark on a 4-month programming journey, mastering programming fundamentals and Data Structures and Algorithms (DSA) in C++, Java, or Python. Covering essentials like Arrays and Strings to advanced topics such as Graphs and Dynamic Programming, gain a well-rounded understanding in a short timeframe.",
+    "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_1600,h_588/https://www.hash13.com/wp-content/uploads/2022/09/WhatsApp-Image-2022-09-04-at-11.31.19-PM.jpeg",
+    "buttonText": "Go somewhere",
+    "link": "https://example.com/programming-basics"
+  },
+  {
+    "title": "Full Stack Website Development using MERN",
+    "content": "Embark on a rapid journey to master MERN Stack Development in under 4 months. Starting from HTML, CSS, and React, delve into backend with Node.js and MongoDB as a database. Learn to build standalone and independent websites, acquiring the skills to create dynamic platforms like Facebook & Instagram.",
+    "image": "https://static.javatpoint.com/blog/images/mern-stack.png",
+    "buttonText": "Go somewhere",
+    "link": "https://example.com/mern-stack"
+  }
+]

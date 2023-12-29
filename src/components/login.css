@@ -1,0 +1,106 @@
+/* Add this CSS to your stylesheet or style tag */
+
+/* Common styles for both desktop and mobile */
+.login-container {
+    display: flex;
+    height: 90vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content input,
+.content button {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.content button {
+    background-color: #4e54c8;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+    background-color: #2a2f9e;
+}
+
+.message {
+    margin-top: 10px;
+    color: red;
+}
+
+/* Desktop styles */
+.login-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: black;
+    text-align: center;
+}
+
+.login-form {
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+
+    /* Custom styles for the border gradient */
+    border-width: 8px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #00FFFF, #800080);
+    border-image-slice: 1;
+}
+
+.login-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+/* Custom styles for the dropdown */
+.login-form select {
+    width: calc(100% - 20px);
+    /* Adjust width as needed */
+    padding: 10px;
+    border: 2px solid #4e54c8;
+    border-radius: 8px;
+    background: linear-gradient(to right, #00FFFF, #800080);
+    /* Gradient of cyan and purple */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .login-content {
+        flex-direction: column;
+        /* Stack content vertically in mobile view */
+    }
+
+    .login-image {
+        display: none;
+        /* Hide login image in mobile view */
+    }
+
+    .login-form {
+        width: 100%;
+        /* Full width in mobile view */
+    }
+}

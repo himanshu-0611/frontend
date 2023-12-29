@@ -1,0 +1,121 @@
+.task-container {
+    padding: 20px;
+}
+
+.taskPadButton {
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-size: medium;
+    border: 2px solid #fff;
+    background: white;
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.532), rgba(128, 0, 128, 0.719));
+    transition: background 0.7s ease, color 0.7s ease;
+}
+
+.taskPadButton:hover {
+    background-color: black;
+    background: white;
+    color: black;
+}
+
+.taskPad {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.submit-button {
+    background-color: gray;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin: 20px auto 0 auto;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    height: 41px;
+}
+
+.submit-button:hover {
+    background-color: rgb(58, 58, 58);
+    transition: background-color 0.3s;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* YourComponent.css */
+/* Add this CSS in a separate file, e.g., YourComponent.css */
+
+/* Default style for the list items */
+.usertask {
+    /* text-align: center; */
+    margin-top: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgb(107, 105, 105);
+}
+
+.task-list {
+    /* margin-top: 10px; */
+    font-weight: 600;
+}
+
+/* Default style for the list items */
+.task-list-item {
+    margin-bottom: 0.1em;
+}
+
+.for-mob {
+    display: none;
+}
+
+/* Media query for screens with a width of 600px or more */
+@media (min-width: 600px) {
+
+    /* Two columns for desktop view */
+    .task-list {
+        column-count: 2;
+        column-gap: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .buttons {
+        width: 100%;
+    }
+
+    .submit-button {
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    /* Adjust styles for mobile view */
+    .container {
+        padding: 10px;
+    }
+
+    .taskPad {
+        padding: 10px;
+    }
+
+    .for-desk {
+        display: none;
+    }
+
+    .for-mob {
+        display: block;
+    }
+
+    .log-but {
+        margin-top: 5px !important;
+        margin: auto;
+    }
+
+}

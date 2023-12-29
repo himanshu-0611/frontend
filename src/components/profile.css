@@ -1,0 +1,114 @@
+/* styles.css */
+
+.task-container {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 50vw;
+    margin: 5vh auto;
+    background-color: rgb(39, 39, 39);
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.month {
+    padding: 10px;
+    width: 50vw;
+    margin: 5vh auto;
+}
+
+.task-number {
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.532), rgba(128, 0, 128, 0.719));
+    /* Add gradient background */
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    border: 3px solid white;
+    /* Add white border */
+    width: 100%;
+    /* Set width as needed */
+    padding: 5px;
+    /* Add padding as needed */
+    margin: 10px 0;
+    /* Add margin as needed */
+}
+
+.task-container:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+/* Additional styling for subtasks, if needed */
+.subtask-container {
+    margin-left: 20px;
+    margin-top: 10px;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+}
+
+.program-name {
+    width: 300px;
+    text-align: center;
+    border: 2px solid white;
+    margin: 35px auto 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(39, 39, 39);
+    transition: background-color 0.3s ease;
+}
+
+.program-name:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+/* Add this style for the welcome overlay */
+.welcome-overlay {
+    position: fixed;
+    top: 20px;
+    /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    /* Set the background color */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle box shadow */
+    z-index: 999;
+    /* Set a high z-index to ensure it appears above other elements */
+    opacity: 0;
+    /* Start with the overlay hidden */
+    transition: opacity 0.5s ease-in-out;
+    /* Add a transition for opacity */
+}
+
+.welcome-overlay {
+    opacity: 0 !important;
+    transition: opacity 0.5s ease-in-out !important;
+}
+
+.welcome-overlay.show {
+    opacity: 1 !important;
+}
+
+/* Add more styles as needed */
+.welcome-overlay p {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+}
+
+@media (max-width: 768px) {
+    .task-container {
+        width: 80vw;
+    }
+
+    .program-name:hover {
+        background-color: rgb(59, 59, 59);
+    }
+
+    .welcome-overlay {
+        top: 150px;
+        /* top: 20vh; */
+    }
+}

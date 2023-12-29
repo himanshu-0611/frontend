@@ -1,0 +1,20 @@
+{
+  "DSA": [
+    {"taskid": 1, "title": "Installing VS Code for CPP", "link": "https://www.youtube.com/watch?v=0yn7irrHzM8"},
+    {"taskid": 2, "title": "30 questions", "link": "https://youtube.com/playlist?list=PLfsNnaur6SytfBSeLwuFK2Bg-kUvJNNtp"},
+    {"taskid": 3, "title": "For Loops Pattern Printing", "link": "https://www.geeksforgeeks.org/pattern-programs-in-c/"},
+    {"taskid": 4, "title": "Easy Section", "link": "https://www.faceprep.in/c/c-programming-questions/"},
+    {"taskid": 5, "title": "Reach 3 Star in HackerRank CPP", "link": null},
+    {"taskid": 6, "title": "DSA Phase 1 Arrays", "link": "https://www.youtube.com/watch?v=sNrLlmOIn-c (CodeHelp, 1h30m)"},
+    {"taskid": 7, "title": "DSA Phase 1 Strings", "link": "https://www.youtube.com/watch?v=kjU04wGSYzw (CollegeWallah, 3h)"},
+    {"taskid": 8, "title": "DSA Phase 1 STL CPP", "link": "https://www.youtube.com/watch?v=WgMPrLX-zsA (CodeHelp, 1h)"},
+    {"taskid": 9, "title": "Reach 5 Star in HackerRank CPP", "link": null}
+  ],
+  "DSA Phase 2": [
+    {"taskid": 10, "title": "Future Ready Talent Project Start", "link": "https://futurereadytalent.in"},
+    {"taskid": 11, "title": "Note: Start Attempting All CodeChef Contests from Now", "link": null},
+    {"taskid": 12, "title": "DSA Phase 2: Searching and Sorting + Implementation", "link": "https://www.youtube.com/watch?v=8TVaEGeaGGc&t=1109s (1h + 5h)"},
+    {"taskid": 13, "title": "Complete DSA", "link": "https://www.youtube.com/watch?v=h3uDCJ5mvgw&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&pp=iAQB (Striver, 245 Videos) (Work on this daily from now, along with next tasks of Aptitude, Core Subjects)"},
+    {"taskid": 14, "title": "Note: Start attempting LeetCode Contests after 20 videos of DSA Playlist, CodeChef Contests are being attempted consistently", "link": null}
+  ]
+}

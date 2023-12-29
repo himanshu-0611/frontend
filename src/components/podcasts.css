@@ -1,0 +1,130 @@
+/* Updated styles for larger images and vertical stacking */
+.video-list {
+    display: flex;
+    flex-direction: column;
+    /* Change to column to stack videos vertically */
+    align-items: center;
+    justify-content: center;
+    /* Center items vertically */
+    gap: 20px;
+    /* Adjust the gap as needed */
+}
+
+.list-bg {
+    width: 55vw;
+    display: flex;
+    /* Enable flexbox */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    /* Center items horizontally */
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+    /* Border radius for rounded corners */
+    padding: 20px;
+    /* Padding for the list background */
+}
+
+.video-item {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    /* Add borders to each video item */
+    border-radius: 10px;
+    background-color: rgb(59, 59, 59);
+    /* Border radius for rounded corners */
+    padding: 15px;
+    /* Add padding for better spacing */
+    width: 80%;
+    /* Adjust the width as needed */
+    /* Set a maximum width for each video item */
+}
+
+.video-item img {
+    max-width: 100%;
+    height: 15rem;
+    margin-bottom: 10px;
+
+    /* Gradient Border with Border Radius */
+    border-radius: 10px;
+    box-shadow: 0 0 0 3px transparent, 0 0 0 6px linear-gradient(to right, cyan, purple);
+}
+
+.video-item h3 {
+    text-align: center;
+    /* Center the video title */
+    margin-bottom: 10px;
+    /* Add margin below the title */
+}
+
+.video-item a {
+    text-align: center;
+    /* Center the button */
+}
+
+/* Optional: Style the button */
+.watch-button {
+    padding: 8px 16px;
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.45rgba(128, 0, 128, 0.429), 1));
+    border: none;
+    /* Gradient of cyan and purple with low opacity */
+    color: #292929;
+    font-weight: bold;
+    /* Text color */
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    /* Add opacity transition */
+    border-radius: 5px;
+}
+
+.watch-button:hover {
+    color: white;
+    background: linear-gradient(to right, rgba(128, 0, 128, 1), rgba(0, 255, 255, 1));
+    transition: background 0.3s ease, color 0.3s ease;
+    /* Use the same gradient on hover for consistency */
+}
+
+.podtext {
+    width: 55vw;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 25px;
+    /* Center the element horizontally */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .video-list {
+        align-items: stretch;
+        /* Stretch items to full width */
+        justify-content: stretch;
+        padding: 10px;
+        /* Stretch items vertically for smaller screens */
+    }
+
+    .list-bg {
+        width: 100%;
+        /* Full width for smaller screens */
+    }
+
+    .video-item {
+        width: 100%;
+        /* Full width for smaller screens */
+        max-width: none;
+        /* Remove max-width for smaller screens */
+    }
+
+    .video-item > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .podtext {
+        width: 90vw;
+        /* Center the element horizontally */
+    }
+}
