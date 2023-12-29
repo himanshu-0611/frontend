@@ -43,7 +43,7 @@ const Footer = () => {
             href="https://www.instagram.com/devcrusade/"
             className="icon"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer" 
           >
             <img src="/images/logos/instagram.png" alt="Instagram" />
           </a>
