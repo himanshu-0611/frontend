@@ -28,13 +28,16 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:5000/api/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ user_mailid, user_password }),
-    });
+    const response = await fetch(
+      "http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/login",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ user_mailid, user_password }),
+      }
+    );
 
     if (response.status === 200) {
       const userData = await response.json();

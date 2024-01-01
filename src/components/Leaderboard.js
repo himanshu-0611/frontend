@@ -44,7 +44,7 @@ function Leaderboard() {
         }
 
         // Define the backend API endpoint with batch_no and selectedProgram in the URL
-        const apiUrl = `http://localhost:5000/api/leaderboard/${batchNoFromCookies}/${selectedProgramFromStorage}`;
+        const apiUrl = `http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/leaderboard/${batchNoFromCookies}/${selectedProgramFromStorage}`;
 
         // Make a GET request to fetch data from the backend
         const response = await fetch(apiUrl, {

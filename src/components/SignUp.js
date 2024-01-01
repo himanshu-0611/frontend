@@ -39,20 +39,23 @@ function SignUp() {
       }
 
       // Example: Send a POST request to your backend to create a new user
-      const response = await fetch("http://localhost:5000/api/signup", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          user_name,
-          user_mailid,
-          user_password,
-          batch_no,
-          user_lang: langToSend, // Send user_lang conditionally
-          program: selectedProgram, // Send the selected program
-        }),
-      });
+      const response = await fetch(
+        "http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/signup",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            user_name,
+            user_mailid,
+            user_password,
+            batch_no,
+            user_lang: langToSend, // Send user_lang conditionally
+            program: selectedProgram, // Send the selected program
+          }),
+        }
+      );
 
       if (response.status === 200) {
         // Signup was successful, handle success
