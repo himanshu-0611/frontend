@@ -68,7 +68,7 @@ function Profile() {
           console.log("Making API call...");
 
           const response = await fetch(
-            `http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/getUserProgress/${userId}/${selectedProgram}`,
+            `http://ec2-43-204-107-124.ap-south-1.compute.amazonaws.com:5000/api/getUserProgress/${userId}/${selectedProgram}`,
             {
               method: "GET",
               headers: {
@@ -231,7 +231,7 @@ function Profile() {
     if (taskId === selectedProgramTaskId + 1) {
       setSelectedProgramTaskId(selectedProgramTaskId + 1);
       fetch(
-        `http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/submitTask/${userId}/${selectedProgram}/${batch_no}/${taskId}`,
+        `http://ec2-43-204-107-124.ap-south-1.compute.amazonaws.com:5000/api/submitTask/${userId}/${selectedProgram}/${batch_no}/${taskId}`,
         {
           method: "POST",
         }

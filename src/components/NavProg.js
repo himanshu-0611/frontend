@@ -42,7 +42,7 @@ export default function NavProg() {
 
     // Make an HTTP POST request to your backend API to submit the task
     fetch(
-      "http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/submitTask",
+      "http://ec2-43-204-107-124.ap-south-1.compute.amazonaws.com:5000/api/submitTask",
       {
         method: "POST",
         headers: {
@@ -74,7 +74,7 @@ export default function NavProg() {
     try {
       // Make an HTTP DELETE request to your backend API to delete the last submitted task
       const response = await fetch(
-        "http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/deleteLastTask",
+        "http://ec2-43-204-107-124.ap-south-1.compute.amazonaws.com:5000/api/deleteLastTask",
         {
           method: "DELETE",
           headers: {
@@ -139,7 +139,7 @@ export default function NavProg() {
   const fetchUserTasks = async () => {
     try {
       const response = await fetch(
-        `http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/userTasks?userId=${userIdFromCookies}&programId=${selectedProgramFromStorage}`
+        `http://ec2-43-204-107-124.ap-south-1.compute.amazonaws.com:5000/api/userTasks?userId=${userIdFromCookies}&programId=${selectedProgramFromStorage}`
       );
       if (response.status === 200) {
         const data = await response.json();

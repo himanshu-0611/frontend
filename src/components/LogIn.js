@@ -29,7 +29,7 @@ function Login() {
     e.preventDefault();
 
     const response = await fetch(
-      "http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/login",
+      "http://ec2-43-204-107-124.ap-south-1.compute.amazonaws.com:5000/api/login",
       {
         method: "POST",
         headers: {

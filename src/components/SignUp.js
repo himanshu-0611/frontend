@@ -40,7 +40,7 @@ function SignUp() {
 
       // Example: Send a POST request to your backend to create a new user
       const response = await fetch(
-        "http://ec2-43-204-105-124.ap-south-1.compute.amazonaws.com:5000/api/signup",
+        "http://ec2-43-204-107-124.ap-south-1.compute.amazonaws.com:5000/api/signup",
         {
           method: "POST",
           headers: {
