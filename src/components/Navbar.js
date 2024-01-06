@@ -170,7 +170,7 @@ function NavbarComponent() {
               </>
             ) : (
               <>
-                <Nav.Link
+                {/* <Nav.Link
                   as={Link}
                   to="/SignUp"
                   onClick={handleClose}
@@ -179,7 +179,7 @@ function NavbarComponent() {
                   onMouseLeave={handleNavLeave}
                 >
                   Sign Up
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link
                   as={Link}
                   to="/LogIn"

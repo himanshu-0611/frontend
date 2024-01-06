@@ -120,7 +120,7 @@ function Home() {
                     transition: "transform 0.2s ease-in-out", // Add a smooth transition effect
                   }}
                 />
-              </div>
+              </div> 
               <h3 style={heading3Style} className="desc-head">
                 A community promoting self-study which gives aspiring software
                 engineers a roadmap to achieve expertise in their interested
@@ -162,6 +162,7 @@ function Home() {
                 alt="Main Img"
                 style={{
                   borderRadius: "70%",
+                  width: "100%",
                   transform: `scale(${zoom})`, // Apply the zoom transformation
                   transition: "transform 0.2s ease-in-out", // Add a smooth transition effect
                 }}
