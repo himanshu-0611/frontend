@@ -40,7 +40,7 @@ function SignUp() {
 
       // Example: Send a POST request to your backend to create a new user
       const response = await fetch(
-        "http://localhost:5000/api/signup",
+        "/api/signup",
         {
           method: "POST",
           headers: {

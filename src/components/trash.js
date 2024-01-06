@@ -14,7 +14,7 @@
 //       try {
 //         if (userId) {
 //           const response = await fetch(
-//             `http://localhost:5000/api/getUserProgress/${userId}`, // Include userId as a query parameter
+//             `/api/getUserProgress/${userId}`, // Include userId as a query parameter
 //             {
 //               method: "GET",
 //               headers: {
@@ -79,7 +79,7 @@ function Programs() {
   const handleSubmitTask = async (taskId) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/submitTask/${userId}/${taskId}`,
+        `/api/submitTask/${userId}/${taskId}`,
         {
           method: "POST",
           headers: {
@@ -109,7 +109,7 @@ function Programs() {
       try {
         if (userId && programId) {
           const response = await fetch(
-            `http://localhost:5000/api/getUserLanguage/${userId}`,
+            `/api/getUserLanguage/${userId}`,
             {
               method: "GET",
               headers: {
@@ -264,7 +264,7 @@ function ProgramSelection({ userId, onProgramSelect }) {
       try {
         if (userId) {
           const response = await fetch(
-            `http://localhost:5000/api/getUserLanguage/${userId}`,
+            `/api/getUserLanguage/${userId}`,
             {
               method: "GET",
               headers: {
